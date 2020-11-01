@@ -1,18 +1,18 @@
 # Awesome Rust [![build badge](https://api.travis-ci.org/rust-unofficial/awesome-rust.svg?branch=master)](https://travis-ci.org/rust-unofficial/awesome-rust)
 
-A curated list of Rust code and resources.
+Rust代码和资源的精选列表。
 
-If you want to contribute, please read [this](CONTRIBUTING.md).
+如果您想要捐赠，请看[这里](CONTRIBUTING.md)。
 
-## Table of contents
+## 目录
 
-  - [Applications](#applications)
-    - [Audio and Music](#audio-and-music)
-    - [Cryptocurrencies](#cryptocurrencies)
-    - [Database](#database)
-    - [Emulators](#emulators)
-    - [Games](#games)
-    - [Graphics](#graphics)
+  - [应用](#应用)
+    - [音频](#音频)
+    - [加密货币](#加密货币)
+    - [数据库](#数据库)
+    - [模拟器](#模拟器)
+    - [游戏](#游戏)
+    - [绘图](#绘图)
     - [Industrial automation](#industrial-automation)
     - [Observability](#observability)
     - [Operating systems](#operating-systems)
@@ -96,27 +96,27 @@ If you want to contribute, please read [this](CONTRIBUTING.md).
   - [Resources](#resources)
   - [License](#license)
 
-## Applications
+## 应用
 
-See also [Rust — Production](https://www.rust-lang.org/production) organizations running Rust in production.
+另见 [Rust — Production](https://www.rust-lang.org/production) 在产品中使用Rust的组织。
 
-* [alacritty](https://github.com/alacritty/alacritty) — A cross-platform, GPU enhanced terminal emulator
-* [AnderEnder/s3find-rs](https://github.com/AnderEnder/s3find-rs) — A command line utility to walk an Amazon S3 hierarchy, an analog of find for Amazon S3 [![build badge](https://api.travis-ci.org/AnderEnder/s3find-rs.svg?branch=master)](https://travis-ci.org/AnderEnder/s3find-rs)
-* [andschwa/rust-genetic-algorithm](https://github.com/andschwa/rust-genetic-algorithm) — A genetic algorithm for academic benchmark problems [![build badge](https://api.travis-ci.org/andschwa/rust-genetic-algorithm.svg?branch=master)](https://travis-ci.org/andschwa/rust-genetic-algorithm)
-* [asm-cli-rust](https://github.com/cch123/asm-cli-rust) — An interactive assembly shell written in rust.
-* [ballista](https://github.com/ballista-compute/ballista) — PoC of distributed compute platform using Rust, Apache Arrow, and Kubernetes!
-* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) — A Userspace WireGuard VPN Implementation [![build badge](https://img.shields.io/badge/crates.io-v0.2.0-orange.svg)](https://crates.io/crates/boringtun)
-* [darrint/device-blocker](https://github.com/darrint/device-blocker) — Limit screen time to children's various mobile devices by blocking internet access on the family Wifi router.
-* [denoland/deno](https://github.com/denoland/deno) — A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio [![Build Status](https://github.com/denoland/deno/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno/actions)
-* [dlecan/generic-dns-update](https://github.com/dlecan/generic-dns-update) — A tool to update DNS zonefiles with your IP address [![build badge](https://api.travis-ci.org/dlecan/generic-dns-update.svg?branch=master)](https://travis-ci.org/dlecan/generic-dns-update)
-* [Factotum](https://github.com/snowplow/factotum) — [A system to programmatically run data pipelines](https://snowplowanalytics.com/blog/2016/04/09/introducing-factotum-data-pipeline-runner/) [![build badge](https://api.travis-ci.org/snowplow/factotum.svg?branch=master)](https://travis-ci.org/snowplow/factotum)
-* [fcsonline/drill](https://github.com/fcsonline/drill) — A HTTP load testing application inspired by Ansible syntax [![build badge](https://api.travis-ci.org/fcsonline/drill.svg?branch=master)](https://travis-ci.org/fcsonline/drill)
-* [Fractalide](https://github.com/fractalide/fractalide) — Simple Rust Microservices
-* [habitat](https://community.chef.io/products/chef-habitat/) — An tool created by [Chef](https://www.chef.io/) to build, deploy, and manage applications.
-* [Herd](https://github.com/imjacobclark/Herd) — an experimental HTTP load testing application
-* [intecture/api](https://github.com/intecture/api) — an API-driven server management and configuration tool [![build badge](https://api.travis-ci.org/intecture/api.svg?branch=master)](https://travis-ci.org/intecture/api)
-* [ivanceras/diwata](https://github.com/ivanceras/diwata) — A database administration tool for postgresql [![build badge](https://api.travis-ci.org/ivanceras/diwata.svg?branch=master)](https://travis-ci.org/ivanceras/diwata)
-* [jedisct1/flowgger](https://github.com/awslabs/flowgger) — A fast, simple and lightweight data collector
+* [alacritty](https://github.com/alacritty/alacritty) — 一个跨平台, GPU加速的终端模拟器
+* [AnderEnder/s3find-rs](https://github.com/AnderEnder/s3find-rs) — 一个命令行工具，用于查看Amazon S3的层次结构，类似于find。 [![build badge](https://api.travis-ci.org/AnderEnder/s3find-rs.svg?branch=master)](https://travis-ci.org/AnderEnder/s3find-rs)
+* [andschwa/rust-genetic-algorithm](https://github.com/andschwa/rust-genetic-algorithm) — 学术基准问题的遗传算法 [![build badge](https://api.travis-ci.org/andschwa/rust-genetic-algorithm.svg?branch=master)](https://travis-ci.org/andschwa/rust-genetic-algorithm)
+* [asm-cli-rust](https://github.com/cch123/asm-cli-rust) — 一个使用rust编写的交互式汇编Shell。
+* [ballista](https://github.com/ballista-compute/ballista) — Apache Arrow和Kubernetes的使用Rust的分布式计算平台的PoC!
+* [cloudflare/boringtun](https://github.com/cloudflare/boringtun) — 一个用户空间的 WireGuard VPN 实现 [![build badge](https://img.shields.io/badge/crates.io-v0.2.0-orange.svg)](https://crates.io/crates/boringtun)
+* [darrint/device-blocker](https://github.com/darrint/device-blocker) — 通过在家庭Wifi路由器上屏蔽网路访问，限制孩子各种移动设备的使用时间。
+* [denoland/deno](https://github.com/denoland/deno) — 一个安全的 JavaScript/TypeScript 运行时，使用 V8, Rust, 和 Tokio 打造。 [![Build Status](https://github.com/denoland/deno/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno/actions)
+* [dlecan/generic-dns-update](https://github.com/dlecan/generic-dns-update) — 用你的IP地址更新DNS区域文件 [![build badge](https://api.travis-ci.org/dlecan/generic-dns-update.svg?branch=master)](https://travis-ci.org/dlecan/generic-dns-update)
+* [Factotum](https://github.com/snowplow/factotum) — [一个以程序化方式运行数据流水线的系统。](https://snowplowanalytics.com/blog/2016/04/09/introducing-factotum-data-pipeline-runner/) [![build badge](https://api.travis-ci.org/snowplow/factotum.svg?branch=master)](https://travis-ci.org/snowplow/factotum)
+* [fcsonline/drill](https://github.com/fcsonline/drill) — 一个受Ansible syntax启发的HTTP负载测试应用。 [![build badge](https://api.travis-ci.org/fcsonline/drill.svg?branch=master)](https://travis-ci.org/fcsonline/drill)
+* [Fractalide](https://github.com/fractalide/fractalide) — 简易Rust微服务
+* [habitat](https://community.chef.io/products/chef-habitat/) — [Chef](https://www.chef.io/) 制作的用于构建，部署与管理应用程序的工具。
+* [Herd](https://github.com/imjacobclark/Herd) — 实验性的HTTP负载测试应用
+* [intecture/api](https://github.com/intecture/api) — 一个接口驱动的服务器管理和配置工具 [![build badge](https://api.travis-ci.org/intecture/api.svg?branch=master)](https://travis-ci.org/intecture/api)
+* [ivanceras/diwata](https://github.com/ivanceras/diwata) — 一个用于postgresql的数据库管理工具 [![build badge](https://api.travis-ci.org/ivanceras/diwata.svg?branch=master)](https://travis-ci.org/ivanceras/diwata)
+* [jedisct1/flowgger](https://github.com/awslabs/flowgger) — 一个快速，建议，轻量的数据收集器。
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — A command line utility for managing DigitalOcean infrastructure [![build badge](https://api.travis-ci.org/kbknapp/docli-rs.svg?branch=master)](https://travis-ci.org/kbknapp/docli-rs)
 * [kytan](https://github.com/changlan/kytan) — High Performance Peer-to-Peer VPN
 * [limonite](https://crates.io/crates/limonite) — static blog/website generator [![build badge](https://api.travis-ci.org/qmx/limonite.svg?branch=master)](https://travis-ci.org/qmx/limonite)
@@ -137,7 +137,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [![build badge](https://api.travis-ci.org/serayuzgur/weld.svg?branch=master)](https://travis-ci.org/serayuzgur/weld)
 * [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
 
-### Audio and Music
+### 音频
 
 * [enginesound](https://github.com/DasEtwas/enginesound) — A GUI and command line application used to procedurally generate semi-realistic engine sounds. Featuring in-depth configuration, variable sample rate and a frequency analysis window.
 * [indiscipline/zrtstr](https://github.com/indiscipline/zrtstr) — A command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. [![build badge](https://api.travis-ci.org/indiscipline/zrtstr.svg?branch=master)](https://travis-ci.org/indiscipline/zrtstr)
@@ -146,7 +146,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [Spotify TUI](https://github.com/Rigellute/spotify-tui) — A Spotify client for the terminal written in Rust. ![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master)
 * [Spotifyd](https://github.com/Spotifyd/spotifyd) — An open source Spotify client running as a UNIX daemon. ![Continuous Integration](https://github.com/Spotifyd/spotifyd/workflows/Continuous%20Integration/badge.svg?branch=master)
 
-### Cryptocurrencies
+### 加密货币
 
 * [Bitcoin Satoshi's Vision](https://github.com/brentongunning/rust-sv) — A Rust library for working with Bitcoin SV .
 * [cardano-cli](https://github.com/input-output-hk/cardano-cli) — Cardano Command Line Interface (CLI)
@@ -178,7 +178,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [zcash](https://github.com/zcash/zcash) — Zcash is an implementation of the "Zerocash" protocol.
 * [YeeCo yeeroot](https://github.com/yeeco/yeeroot) — YeeCo yeeroot is a permissionless, secure, high performance and scalable public blockchain platform powered by full sharding technology on PoW consensus written in Rust
 
-### Database
+### 数据库
 
 * [indradb](https://crates.io/crates/indradb) — Rust based graph database [![build badge](https://api.travis-ci.org/indradb/indradb.svg?branch=master)](https://travis-ci.org/indradb/indradb)
 * [Materialize](https://github.com/MaterializeInc/materialize) - Streaming SQL database powered by Timely Dataflow :heavy_dollar_sign: [![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/tests)
@@ -191,7 +191,7 @@ See also [Rust — Production](https://www.rust-lang.org/production) organizatio
 * [tikv](https://github.com/tikv/tikv) — A distributed KV database in Rust [![build badge](https://circleci.com/gh/tikv/tikv.svg?style=shield&circle-token=36bab0a8e43edb0941b31c38557d2d9d0d58f708)](https://circleci.com/gh/tikv/tikv)
 * [sled](https://crates.io/crates/sled) — A (beta) modern embedded database [![Build Status](https://github.com/spacejam/sled/workflows/Rust/badge.svg?branch=master)](https://github.com/spacejam/sled/actions?workflow=Rust)
 
-### Emulators
+### 模拟器
 
 See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulator).
 
@@ -223,7 +223,7 @@ See also [crates matching keyword 'emulator'](https://crates.io/keywords/emulato
   * SNES
     * [ioncodes/snesutilities](https://github.com/ioncodes/snesutilities) — ROM analyser/extractor
 
-### Games
+### 游戏
 
 See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Piston).
 
@@ -244,7 +244,7 @@ See also [Games Made With Piston](https://github.com/PistonDevelopers/piston/wik
 * [Zone of Control](https://github.com/ozkriff/zoc) — A turn-based hexagonal strategy game [![build badge](https://api.travis-ci.org/ozkriff/zoc.svg?branch=master)](https://travis-ci.org/ozkriff/zoc)
 * [KostasKyriakou/snake_game](https://github.com/KostasKyriakou/snake_game) - Simple terminal snake game written in Rust.
 
-### Graphics
+### 绘图
 
 * [Limeth/euclider](https://github.com/Limeth/euclider) — A real-time 4D CPU ray tracer [![build badge](https://api.travis-ci.org/Limeth/euclider.svg?branch=master)](https://travis-ci.org/Limeth/euclider)
 * [RazrFalcon/resvg](https://github.com/RazrFalcon/resvg) — An SVG rendering library. [![build badge](https://api.travis-ci.org/RazrFalcon/resvg.svg?branch=master)](https://travis-ci.org/RazrFalcon/resvg)
