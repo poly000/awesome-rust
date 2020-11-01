@@ -111,29 +111,29 @@ Rust代码和资源的精选列表。
 * [dlecan/generic-dns-update](https://github.com/dlecan/generic-dns-update) — 用你的IP地址更新DNS区域文件 [![build badge](https://api.travis-ci.org/dlecan/generic-dns-update.svg?branch=master)](https://travis-ci.org/dlecan/generic-dns-update)
 * [Factotum](https://github.com/snowplow/factotum) — [一个以程序化方式运行数据流水线的系统。](https://snowplowanalytics.com/blog/2016/04/09/introducing-factotum-data-pipeline-runner/) [![build badge](https://api.travis-ci.org/snowplow/factotum.svg?branch=master)](https://travis-ci.org/snowplow/factotum)
 * [fcsonline/drill](https://github.com/fcsonline/drill) — 一个受Ansible syntax启发的HTTP负载测试应用。 [![build badge](https://api.travis-ci.org/fcsonline/drill.svg?branch=master)](https://travis-ci.org/fcsonline/drill)
-* [Fractalide](https://github.com/fractalide/fractalide) — 简易Rust微服务
+* [Fractalide](https://github.com/fractalide/fractalide) — 简易的Rust微服务
 * [habitat](https://community.chef.io/products/chef-habitat/) — [Chef](https://www.chef.io/) 制作的用于构建，部署与管理应用程序的工具。
 * [Herd](https://github.com/imjacobclark/Herd) — 实验性的HTTP负载测试应用
 * [intecture/api](https://github.com/intecture/api) — 一个接口驱动的服务器管理和配置工具 [![build badge](https://api.travis-ci.org/intecture/api.svg?branch=master)](https://travis-ci.org/intecture/api)
-* [ivanceras/diwata](https://github.com/ivanceras/diwata) — 一个用于postgresql的数据库管理工具 [![build badge](https://api.travis-ci.org/ivanceras/diwata.svg?branch=master)](https://travis-ci.org/ivanceras/diwata)
-* [jedisct1/flowgger](https://github.com/awslabs/flowgger) — 一个快速，建议，轻量的数据收集器。
+* [ivanceras/diwata](https://github.com/ivanceras/diwata) — 一个用于Postgresql, Mysql 及 Sqlite的数据库管理工具 [![build badge](https://api.travis-ci.org/ivanceras/diwata.svg?branch=master)](https://travis-ci.org/ivanceras/diwata)
+* [jedisct1/flowgger](https://github.com/awslabs/flowgger) — 一个快速，简易，轻量的数据收集器。
 * [kbknapp/docli](https://github.com/kbknapp/docli-rs) — A command line utility for managing DigitalOcean infrastructure [![build badge](https://api.travis-ci.org/kbknapp/docli-rs.svg?branch=master)](https://travis-ci.org/kbknapp/docli-rs)
-* [kytan](https://github.com/changlan/kytan) — High Performance Peer-to-Peer VPN
-* [limonite](https://crates.io/crates/limonite) — static blog/website generator [![build badge](https://api.travis-ci.org/qmx/limonite.svg?branch=master)](https://travis-ci.org/qmx/limonite)
+* [kytan](https://github.com/changlan/kytan) — 高性能的端到端VPN
+* [limonite](https://crates.io/crates/limonite) — 静态博客/网站生成器 [![build badge](https://api.travis-ci.org/qmx/limonite.svg?branch=master)](https://travis-ci.org/qmx/limonite)
 * [linkerd/linkerd2-proxy](https://github.com/linkerd/linkerd2-proxy) — Ultralight service mesh for Kubernetes.
 * [MaidSafe](https://maidsafe.net) — A decentralized platform.
-* [mdBook](https://crates.io/crates/mdbook) — A command line utility to create books from markdown files [![Build Status](https://github.com/rust-lang/mdBook/workflows/CI/badge.svg?branch=master)](https://github.com/rust-lang/mdBook/actions)
+* [mdBook](https://crates.io/crates/mdbook) — 一个用MD文档生成书的命令行工具 [![Build Status](https://github.com/rust-lang/mdBook/workflows/CI/badge.svg?branch=master)](https://github.com/rust-lang/mdBook/actions)
 * [nicohman/eidolon](https://github.com/nicohman/eidolon) — A steam and drm-free game registry and launcher for linux and macosx [![build badge](https://api.travis-ci.org/nicohman/eidolon.svg?branch=master)](https://travis-ci.org/nicohman/eidolon)
-* [notty](https://github.com/withoutboats/notty) — A new kind of terminal
+* [notty](https://github.com/withoutboats/notty) — 新一代终端
 * [Pijul](https://pijul.org) — A patch-based distributed version control system
 * [rsign](https://crates.io/crates/rsign) — A simple command-line tool used to generate/sign/verify digital signatures designed to be compatible with Minisign ![Codeship Status for danielrangel/rsign](https://app.codeship.com/projects/60b28d80-7645-0135-4402-1639b58199d0/status?branch=master)
 * [Rudr](https://github.com/oam-dev/rudr) — A Kubernetes implementation of the [Open Application Model](https://oam.dev/) specification [![](https://github.com/oam-dev/rudr/workflows/Rust/badge.svg?branch=master)](https://github.com/oam-dev/rudr/actions)
 * [rx](https://github.com/cloudhead/rx) — Vi inspired Modern Pixel Art Editor
 * [Sandstorm Collections App](https://github.com/sandstorm-io/collections-app)
 * [Servo](https://github.com/servo/servo) — A prototype web browser engine
-* [tiny](https://github.com/osa1/tiny) — A terminal IRC client
-* [trust-dns](https://crates.io/crates/trust-dns) — A DNS-server [![build badge](https://api.travis-ci.org/bluejekyll/trust-dns.svg?branch=master)](https://travis-ci.org/bluejekyll/trust-dns)
-* [updns](https://github.com/wyhaya/updns) — DNS proxy tool
+* [tiny](https://github.com/osa1/tiny) — 一个终端IRC客户端
+* [trust-dns](https://crates.io/crates/trust-dns) — 一个DNS服务器 [![build badge](https://api.travis-ci.org/bluejekyll/trust-dns.svg?branch=master)](https://travis-ci.org/bluejekyll/trust-dns)
+* [updns](https://github.com/wyhaya/updns) — DNS代理工具
 * [Weld](https://github.com/serayuzgur/weld) — Full fake REST API generator [![build badge](https://api.travis-ci.org/serayuzgur/weld.svg?branch=master)](https://travis-ci.org/serayuzgur/weld)
 * [wezterm](https://github.com/wez/wezterm) — A GPU-accelerated cross-platform terminal emulator and multiplexer
 
